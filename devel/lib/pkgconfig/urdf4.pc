@@ -1,0 +1,8 @@
+prefix=/home/duc/ROS1/station1/devel
+
+Name: urdf4
+Description: Description of urdf4
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

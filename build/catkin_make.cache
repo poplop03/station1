@@ -1,0 +1,2 @@
+urdf2:urdf3:urdf4:urdf5
+-DCATKIN_DEVEL_PREFIX=/home/duc/ROS1/station1/devel -DCMAKE_INSTALL_PREFIX=/home/duc/ROS1/station1/install -G Unix Makefiles
