@@ -1,0 +1,11 @@
+<launch>
+
+  <!-- Rtab_map -->
+  <include file="$(find openni_launch)/launch/openni.launch">
+    <arg name="depth_registration" value="true" />
+  </include>
+
+  <!-- Rtab_map -->
+  <include file="$(find rtabmap_bringup)/launch/rtabmap1.launch" />
+  
+</launch>
