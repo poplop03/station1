@@ -5,7 +5,6 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
-subdirs("urdf2")
-subdirs("urdf3")
-subdirs("urdf4")
+subdirs("station1_bringup")
 subdirs("urdf5")
+subdirs("rtabmap_bringup")

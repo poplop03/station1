@@ -1,5 +1,17 @@
 <launch>
 
+  <arg
+    name="model" />
+  <param
+    name="robot_description"
+    textfile="$(find urdf5)/urdf/urdf5.urdf" />
+
+    <node
+    name="rviz"
+    pkg="rviz"
+    type="rviz"
+    args="-d $(find rtabmap_bringup)/config/rtabmapping.rviz" />
+
   <!-- Rtab_map -->
   <include file="$(find openni_launch)/launch/openni.launch">
     <arg name="depth_registration" value="true" />
