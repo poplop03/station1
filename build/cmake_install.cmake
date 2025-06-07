@@ -147,8 +147,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/duc/ROS1/station1/build/gtest/cmake_install.cmake")
   include("/home/duc/ROS1/station1/build/station1_bringup/cmake_install.cmake")
-  include("/home/duc/ROS1/station1/build/urdf5/cmake_install.cmake")
-  include("/home/duc/ROS1/station1/build/rtabmap_bringup/cmake_install.cmake")
+  include("/home/duc/ROS1/station1/build/robot_description_v2/cmake_install.cmake")
 
 endif()
 

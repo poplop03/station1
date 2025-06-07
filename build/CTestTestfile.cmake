@@ -6,5 +6,4 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
 subdirs("station1_bringup")
-subdirs("urdf5")
-subdirs("rtabmap_bringup")
+subdirs("robot_description_v2")
