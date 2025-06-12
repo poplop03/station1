@@ -1,2 +1,2 @@
-robot_description_v2:station1_bringup
+robot_description_v2:robot_description_v3:station1_bringup
 -DCATKIN_DEVEL_PREFIX=/home/duc/ROS1/station1/devel -DCMAKE_INSTALL_PREFIX=/home/duc/ROS1/station1/install -G Unix Makefiles

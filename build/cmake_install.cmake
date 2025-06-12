@@ -148,6 +148,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/duc/ROS1/station1/build/gtest/cmake_install.cmake")
   include("/home/duc/ROS1/station1/build/station1_bringup/cmake_install.cmake")
   include("/home/duc/ROS1/station1/build/robot_description_v2/cmake_install.cmake")
+  include("/home/duc/ROS1/station1/build/robot_description_v3/cmake_install.cmake")
 
 endif()
 

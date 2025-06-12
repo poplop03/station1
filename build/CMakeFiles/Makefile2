@@ -56,6 +56,7 @@ CMAKE_BINARY_DIR = /home/duc/ROS1/station1/build
 all: gtest/all
 all: station1_bringup/all
 all: robot_description_v2/all
+all: robot_description_v3/all
 
 .PHONY : all
 
@@ -63,6 +64,7 @@ all: robot_description_v2/all
 preinstall: gtest/preinstall
 preinstall: station1_bringup/preinstall
 preinstall: robot_description_v2/preinstall
+preinstall: robot_description_v3/preinstall
 
 .PHONY : preinstall
 
@@ -75,6 +77,7 @@ clean: CMakeFiles/download_extra_data.dir/clean
 clean: gtest/clean
 clean: station1_bringup/clean
 clean: robot_description_v2/clean
+clean: robot_description_v3/clean
 
 .PHONY : clean
 
@@ -152,6 +155,24 @@ robot_description_v2/preinstall:
 robot_description_v2/clean: robot_description_v2/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 .PHONY : robot_description_v2/clean
+
+#=============================================================================
+# Directory level rules for directory robot_description_v3
+
+# Recursive "all" directory target.
+robot_description_v3/all:
+
+.PHONY : robot_description_v3/all
+
+# Recursive "preinstall" directory target.
+robot_description_v3/preinstall:
+
+.PHONY : robot_description_v3/preinstall
+
+# Recursive "clean" directory target.
+robot_description_v3/clean:
+
+.PHONY : robot_description_v3/clean
 
 #=============================================================================
 # Directory level rules for directory station1_bringup

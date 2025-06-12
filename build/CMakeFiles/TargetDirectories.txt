@@ -65,3 +65,10 @@
 /home/duc/ROS1/station1/build/robot_description_v2/CMakeFiles/edit_cache.dir
 /home/duc/ROS1/station1/build/robot_description_v2/CMakeFiles/test.dir
 /home/duc/ROS1/station1/build/robot_description_v2/CMakeFiles/_catkin_empty_exported_target.dir
+/home/duc/ROS1/station1/build/robot_description_v3/CMakeFiles/install/strip.dir
+/home/duc/ROS1/station1/build/robot_description_v3/CMakeFiles/install/local.dir
+/home/duc/ROS1/station1/build/robot_description_v3/CMakeFiles/install.dir
+/home/duc/ROS1/station1/build/robot_description_v3/CMakeFiles/list_install_components.dir
+/home/duc/ROS1/station1/build/robot_description_v3/CMakeFiles/rebuild_cache.dir
+/home/duc/ROS1/station1/build/robot_description_v3/CMakeFiles/edit_cache.dir
+/home/duc/ROS1/station1/build/robot_description_v3/CMakeFiles/test.dir
