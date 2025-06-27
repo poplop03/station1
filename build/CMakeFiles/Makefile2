@@ -57,6 +57,7 @@ all: gtest/all
 all: station1_bringup/all
 all: robot_description_v2/all
 all: robot_description_v3/all
+all: robot_description_v5/all
 
 .PHONY : all
 
@@ -65,6 +66,7 @@ preinstall: gtest/preinstall
 preinstall: station1_bringup/preinstall
 preinstall: robot_description_v2/preinstall
 preinstall: robot_description_v3/preinstall
+preinstall: robot_description_v5/preinstall
 
 .PHONY : preinstall
 
@@ -78,6 +80,7 @@ clean: gtest/clean
 clean: station1_bringup/clean
 clean: robot_description_v2/clean
 clean: robot_description_v3/clean
+clean: robot_description_v5/clean
 
 .PHONY : clean
 
@@ -173,6 +176,24 @@ robot_description_v3/preinstall:
 robot_description_v3/clean:
 
 .PHONY : robot_description_v3/clean
+
+#=============================================================================
+# Directory level rules for directory robot_description_v5
+
+# Recursive "all" directory target.
+robot_description_v5/all:
+
+.PHONY : robot_description_v5/all
+
+# Recursive "preinstall" directory target.
+robot_description_v5/preinstall:
+
+.PHONY : robot_description_v5/preinstall
+
+# Recursive "clean" directory target.
+robot_description_v5/clean:
+
+.PHONY : robot_description_v5/clean
 
 #=============================================================================
 # Directory level rules for directory station1_bringup
